@@ -1,0 +1,6 @@
+transformers==4.9.2
+numpy==1.19.5
+torch==1.9.0
+codecarbon==2.1.4
+deepspeed==0.7.3
+scikit_learn==1.1.2
