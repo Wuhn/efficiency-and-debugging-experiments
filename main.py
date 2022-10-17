@@ -29,8 +29,8 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S')
 
 parser = argparse.ArgumentParser(description='Process some integers.')
-parser.add_argument('--train', default='train.txt', help='Path to training data')
-parser.add_argument('--test', default='test_simple.txt', help='Path to test data')
+parser.add_argument('--train', default='data/train.txt', help='Path to training data')
+parser.add_argument('--test', default='data/test_simple.txt', help='Path to test data')
 args = parser.parse_args()
 
 train_path = args.train
